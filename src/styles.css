@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+body {
+  /*     background-color: yellowgreen; */
+  background-color: whitesmoke;
+}
+a {
+  text-decoration: none;
+}
+/* Header Css */
+.container_header {
+  text-align: center;
+  margin-top: 50px;
+}
+.container_header p {
+  color: blueviolet;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: light;
+  margin-right: 10px;
+  transform: rotate(-90deg);
+}
+.container_header h1 {
+  color: blueviolet;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+/* Button Css */
+.container_button button {
+  background: none;
+  border: none;
+}
+
+/* Navbar Css */
+
+.nav {
+  display: flex;
+  margin-left: 150px;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav ul li {
+  margin: 10px 60px;
+  text-decoration: none;
+}
+
+/* Card Css */
+.main_container {
+  display: flex;
+}
+
+.card_container {
+  display: flex;
+}
+
+.card_container img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Small Card */
+.card_small {
+  display: flex;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.card_data {
+  display: flex;
+}
+
+.card_small img {
+  width: 100px;
+  height: 100px;
+}
+.small {
+  margin-left: 10px;
+}
+
+/* rightbar and left bar css */
+
+.rightbar {
+  width: 70%;
+}
+.rightbar2 {
+  width: 70%;
+  display: inline-block;
+}
+
+.sidebar {
+  width: 20%;
+  margin-left: 40px;
+}
+.sidebar2 {
+  display: inline-block;
+
+  /* width: 15%; */
+  margin-left: 40px;
+}
+
+.main_container {
+  margin: 0px 10%;
+}
+
+.bigcard_data {
+  box-sizing: border-box;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+.bigcard_data h5 {
+  color: black;
+  text-decoration: none;
+}
+
+/* advertisement */
+.advertisement {
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 140px;
+  width: 200px;
+  height: 300px;
+  border: 2px solid rebeccapurple;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+/* Home Css */
+.Home {
+  margin: 20px 10%;
+}
+.home_container {
+  display: flex;
+}
+
+.home_first_img {
+  box-sizing: border-box;
+  display: inline-block;
+  color: white;
+  width: 65%;
+  height: 500px;
+  background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding-top: 300px;
+}
+
+.home_sec_img {
+  display: inline-block;
+  width: 35%;
+  height: 200px;
+  margin-left: 20px;
+}
+.home_third_img {
+  margin-left: 20px;
+  position: absolute;
+  top: 480px;
+  border-radius: 15px;
+  left: 850px;
+  right: 30px;
+}
+.home_third_img img {
+  width: 85%;
+  margin-right: 20px;
+  float: right;
+  border-radius: 10px;
+  background-position: center;
+  box-sizing: border-box;
+}
+.home_left {
+  margin: 20px 50px 20px 0px;
+  display: inline-block;
+  text-align: center;
+  width: 29%;
+  height: 400px;
+}
+.home_left img {
+  width: 100%;
+}
+.home_bigcard_data {
+  margin-top: 20px;
+}
+.Top {
+  display: inline-block;
+  margin-left: 600px;
+  margin-top: 40px;
+}
+
+@media (max-width: 480px) {
+  .rightbar {
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+    width: 20%;
+    margin-left: 40px;
+  }
+  .nav {
+    /* display: none; */
+    margin-left: 10px;
+  }
+  .nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  .card_container img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Home css */
+  .home_sec {
+    display: none;
+  }
+  .home_thir {
+    display: none;
+  }
+  .Top {
+    display: none;
+    /* margin-left: 600px; */
+    margin-top: 40px;
+  }
+
+  .home_left {
+    width: 100%;
+  }
+  .home_left img {
+    width: 100%;
+  }
+  .home_first {
+    width: 100%;
+  }
+  .rightbar2 {
+    width: 100%;
+  }
+  .single__page {
+    width: 70%;
+  }
+  .single_page img {
+    width: 100%;
+    height: 40vh;
+  }
+}
